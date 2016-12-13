@@ -10,4 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="tn.enis.omardahmen.devilpacman.AboutActivity">
 
+    <TextView
+        android:text="Ce jeu est inspiré du célèbre jeu Pac-man, créé par Namco en 1979 et du film Pixels sorti en 2015 ou les jeux vidéo d'arcades classique (et en particulier le Pac-man) sont devenu réelles et attaquent le monde, en utilisant le langage Android."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="24sp" />
 </RelativeLayout>

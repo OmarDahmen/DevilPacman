@@ -10,4 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="tn.enis.omardahmen.devilpacman.HelpActivity">
 
+    <TextView
+        android:text="l’utilisateur va déplacer Pac-man afin de manger les 4 fantômes avant qu’ils terminent de manger tous les petits cercles existants dans le labyrinthe. Si les fantômes mangent tous les cercles existants le jeu se termine par un échec par contre si Pac-man réussit à manger les fantômes le joueur passe à un niveau plus difficile ou’ les fantômes ont une vitesse plus importante et sont plus intelligents. De plus, Si l’un des fantômes mange un fruit spécial il peut attaquer Pac-man et le manger et dans ce cas le joueur perd une vie."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
